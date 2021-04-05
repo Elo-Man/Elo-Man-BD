@@ -21,8 +21,10 @@
     https://i.imgur.com/54i25Br.jpg (Purple Theme)
     https://i.imgur.com/jWzoWc4.png (Purple Theme)
     https://i.imgur.com/97zdzxO.png (Black Theme)
-
-  Text, Buttons, Selections:
+    https://i0.wp.com/wallur.com/wp-content/uploads/2016/12/saber-fate-background-15.jpg?fit=1920%2C1080 (Saber)
+    https://i.imgur.com/knW1j6B.jpg (Rin Tohsaka)
+    https://wallpaperaccess.com/full/1990640.jpg (Jeanne D Arc)
+  Colours of Backgrounds, Texts, Buttons, Selections:
     All colours are in RGBA format (Red, Green, Blue, Alpha)
     Use https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool if you need to.
 
@@ -33,6 +35,7 @@
     https://i.imgur.com/7RPRLeO.png (Jeanne's Flag)
     https://i.imgur.com/ZeJQPfT.png (Blue Space Theme)
     https://i.imgur.com/nnBfVhI.png (Blue Space Theme Selection)
+    https://i.imgur.com/u2rgkLt.png (James)
 
     You can also use certain text (pointer, grab, crosshair, etc)
     
@@ -46,7 +49,7 @@
 /* Global Variables - Only Edit These Values */
 :root {
   /* Background Settings */
-  --background-image: url(https://i.imgur.com/tAogUoy.jpg); /* Options: URL (JPG, PNG, etc) */
+  --background-image: url(https://i.imgur.com/knW1j6B.jpg); /* Options: URL (JPG, PNG, etc) | Default: White Background */
   --background-image-blur: 5px; /* Options: Int px | Default 5px */
   --background-image-size: cover; /* Options: Cover, Contain, Auto | Default: Cover */
   --background-image-position: center; /* Options: Centre, Top, Right, Bottom, Left | Default: Centre */
@@ -90,14 +93,19 @@
   --dm-channel-background: transparent; /* DM Sidebar Background | Default: transparent */
 
   /* Cursors */
-  --title-cursor: url("https://i.imgur.com/doLiM3i.png"); /* Title Cursor */
-  --text-cursor: url("https://i.imgur.com/7RPRLeO.png"); /* Text Area Cursor */
+  --title-cursor: url("https://i.imgur.com/i8WebxD.png"); /* Title Cursor */
+  --text-cursor: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Text_Select_v2.cur"); /* Text Area Cursor */
   --selection-cursor: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Link_Select_v2.cur"); /* Selection Area Cursor */
   --grab-cursor: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Horizontal_Resize_v2.cur"); /* Grab Cursor */
   --disabled-cursor: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Unavailable_v2.cur"); /* Disabled Selection (Example: Locked Channels) */
 
   /* Misc. */
-  --colour-ping: rgb(255, 70, 70);
+  --colour-ping: rgb(255, 70, 70); /* Ping Colour */
+  --scroller-main: transparent; /* Main Scrollers Colour */
+  --scroller-main-border: transparent; /* Main Scrollers Border */
+  --scroller-minor: transparent; /* Minor Scrollers Colour */
+  --scroller-minor-border-radius: 10px; /* Minor Scrollers Border Radius */
+  --scroller-minor-border: none; /* Minor Scrollers Border */
   --settingsicons: 1; /* Settings Icons - 1 = true, 0 = false | Default: 1*/
   --v-130: none; /* Don't Edit - Update Notice */
 }
